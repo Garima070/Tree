@@ -1,4 +1,4 @@
-public class Preorder {
+public class Preorder{
     static class Node{
         private final int data;
         int root;
