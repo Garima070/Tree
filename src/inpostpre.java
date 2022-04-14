@@ -2,12 +2,12 @@ import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
 
-class Node
+class Node1
         {
         int data;
         Node right;
         Node left;
-        Node(int data)
+        Node1(int data)
         {
         this.data=data;
         }

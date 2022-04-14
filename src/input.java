@@ -1,12 +1,12 @@
 import java.util.Random;
 import java.util.Scanner;
 
-class Node1
+class Node2
 {
     int data;
     Node right;
     Node left;
-    Node1(int data)
+    Node2(int data)
     {
         this.data=data;
     }
