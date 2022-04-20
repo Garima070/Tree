@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 class Node1
@@ -55,10 +53,13 @@ public class inpostpre {
     public static void main(String[] args) {
         sc=new Scanner(System.in);
         Node root=create();
+        System.out.println("Inorder");
         inOrder(root);
         System.out.println();
+        System.out.println("preorder");
         preOrder(root);
         System.out.println();
+        System.out.println("postorder");
         postOrder(root);
     }
 }
